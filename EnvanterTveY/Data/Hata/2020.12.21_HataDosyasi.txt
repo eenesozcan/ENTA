@@ -1,0 +1,274 @@
+ 
+ ============================================================== 
+ 
+21.12.2020 11:46:04,[127.0.0.1],[1 - Enes ÖZCAN] ,Column 'ADRES_ILCE.ILCE' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.Adresler.ilce_sec()
+   konum: EnvanterTveY.Adresler.combolge_sec_caddesokak_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+21.12.2020 11:50:19,[127.0.0.1],[1 - Enes ÖZCAN] ,Column 'ADRES_ILCE.ILCE' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.Adresler.ilce_sec()
+   konum: EnvanterTveY.Adresler.combolge_sec_caddesokak_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+21.12.2020 11:52:45,[127.0.0.1],[1 - Enes ÖZCAN] ,Column 'ADRES_ILCE.ID' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.Adresler.ilce_sec()
+   konum: EnvanterTveY.Adresler.combolge_sec_caddesokak_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+21.12.2020 12:16:27,[127.0.0.1],[1 - Enes ÖZCAN] ,Column 'ADRES_ILCE.ILCE' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.Adresler.ilce_sec()
+   konum: EnvanterTveY.Adresler.combolge_sec_caddesokak_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+21.12.2020 17:59:18,[127.0.0.1],[1 - Enes ÖZCAN] ,Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index,   konum: System.Collections.ArrayList.get_Item(Int32 index)
+   konum: System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 17:59:24,[127.0.0.1],[1 - Enes ÖZCAN] ,Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index,   konum: System.Collections.ArrayList.get_Item(Int32 index)
+   konum: System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 18:05:40,[127.0.0.1],[1 - Enes ÖZCAN] ,Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index,   konum: System.Collections.ArrayList.get_Item(Int32 index)
+   konum: System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 18:06:27,[127.0.0.1],[1 - Enes ÖZCAN] ,Dizin aralık dışındaydı. Negatif bir değer olmamalı ve koleksiyonun boyutundan daha küçük olmalıdır.
+Parametre adı: index,   konum: System.Collections.ArrayList.get_Item(Int32 index)
+   konum: System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 21:10:24,[127.0.0.1],[9 - bursa Turksat] ,Görünüm durumu yüklenemedi. Görünüm durumunun içine yüklendiği denetim ağacının, önceki istek sırasında görünüm durumunu kaydetmek için kullanılan denetim ağacıyla aynı olması gerekir. Örneğin, denetimler dinamik olarak eklenirken, geri gönderme sırasında eklenen denetimlerin tür ve konumları, ilk istek sırasında eklenen denetimlerin tür ve konumlarıyla aynı olmalıdır.,   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Page.LoadAllState()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/MalzemeYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 21:10:29,[127.0.0.1],[9 - bursa Turksat] ,Görünüm durumu yüklenemedi. Görünüm durumunun içine yüklendiği denetim ağacının, önceki istek sırasında görünüm durumunu kaydetmek için kullanılan denetim ağacıyla aynı olması gerekir. Örneğin, denetimler dinamik olarak eklenirken, geri gönderme sırasında eklenen denetimlerin tür ve konumları, ilk istek sırasında eklenen denetimlerin tür ve konumlarıyla aynı olmalıdır.,   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Page.LoadAllState()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/MalzemeYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 21:10:29,[127.0.0.1],[9 - bursa Turksat] ,Görünüm durumu yüklenemedi. Görünüm durumunun içine yüklendiği denetim ağacının, önceki istek sırasında görünüm durumunu kaydetmek için kullanılan denetim ağacıyla aynı olması gerekir. Örneğin, denetimler dinamik olarak eklenirken, geri gönderme sırasında eklenen denetimlerin tür ve konumları, ilk istek sırasında eklenen denetimlerin tür ve konumlarıyla aynı olmalıdır.,   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   konum: System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   konum: System.Web.UI.Page.LoadAllState()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/MalzemeYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 21:12:22,[127.0.0.1],[23 - samsun Turksat] ,Invalid column name 'ID2'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.KodT.kodlar.sql_calistir1(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 187
+   konum: EnvanterTveY.SevkYonetimi.btntutanakolustur_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\SevkYonetimi.aspx.cs içinde: satır 3877
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 21:12:27,[127.0.0.1],-,'/Export.aspx' dosyası yok.,/Export.aspx?id=c59553eb-2d9f-4ec7-825b-22bf49f62f57&dosya=SevkMalzemeListesi&format=excel
+ 
+ ============================================================== 
+ 
+21.12.2020 21:12:27,[127.0.0.1],[23 - samsun Turksat] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+21.12.2020 23:33:05,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx(352): error CS1061: 'varlikyonetimi_aspx' does not contain a definition for 'grid_varlik_malzeme_baglama_RowCommand' and no extension method 'grid_varlik_malzeme_baglama_RowCommand' accepting a first argument of type 'varlikyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 23:33:07,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+21.12.2020 23:33:51,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx(352): error CS1061: 'varlikyonetimi_aspx' does not contain a definition for 'grid_varlik_malzeme_baglama_RowCommand' and no extension method 'grid_varlik_malzeme_baglama_RowCommand' accepting a first argument of type 'varlikyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+21.12.2020 23:33:51,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

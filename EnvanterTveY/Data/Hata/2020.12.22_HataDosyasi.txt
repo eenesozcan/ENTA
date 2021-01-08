@@ -1,0 +1,183 @@
+ 
+ ============================================================== 
+ 
+22.12.2020 12:09:41,[127.0.0.1],[1 - Enes ÖZCAN] ,The parameterized query '(@VMBD2 nvarchar(1),@VMAT2 datetime,@VMSID nvarchar(1),@VID nvar' expects the parameter '@MID', which was not supplied.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: EnvanterTveY.VarlikYonetimi.btnmalzemesil_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 15:58:23,[::1],-,'/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx' dosyası yok.,/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+22.12.2020 22:31:39,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+22.12.2020 22:31:44,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+22.12.2020 22:32:44,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+22.12.2020 22:34:53,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi

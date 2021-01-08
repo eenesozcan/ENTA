@@ -1,0 +1,48 @@
+ 
+ ============================================================== 
+ 
+17.12.2020 14:22:54,[::1],[2 - Enes ÖZCAN admin] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+17.12.2020 14:23:00,[::1],[2 - Enes ÖZCAN admin] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+17.12.2020 14:23:25,[::1],[2 - Enes ÖZCAN admin] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+17.12.2020 14:23:39,[::1],[2 - Enes ÖZCAN admin] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+17.12.2020 21:48:18,[::1],[2 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+17.12.2020 21:48:23,[::1],[2 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

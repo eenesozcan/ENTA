@@ -1,0 +1,261 @@
+ 
+ ============================================================== 
+ 
+26.12.2020 22:40:45,[127.0.0.1],[1 - Enes ÖZCAN] ,'BOLGE' adlı bir alan veya özellik seçili veri kaynağında bulunamadı.,   konum: System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   konum: System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   konum: System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   konum: System.Web.UI.Control.DataBind()
+   konum: System.Web.UI.Control.DataBindChildren()
+   konum: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   konum: System.Web.UI.Control.DataBind()
+   konum: System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   konum: System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   konum: System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   konum: System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   konum: System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: System.Web.UI.WebControls.GridView.DataBind()
+   konum: EnvanterTveY.KullaniciYonetimi.Kullanici_Listele() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 94
+   konum: EnvanterTveY.KullaniciYonetimi.Page_Load(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 50
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:00:29,[127.0.0.1],[1 - Enes ÖZCAN] ,'comdepoekle' içinde hem DataSource hem de DataSourceID tanımlandı. Tanımlardan birini kaldırın.,   konum: System.Web.UI.WebControls.DataBoundControl.EnsureSingleDataSource()
+   konum: System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   konum: System.Web.UI.WebControls.DataBoundControl.GetData()
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.KullaniciYonetimi.depo_listele() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 227
+   konum: EnvanterTveY.KullaniciYonetimi.combolgeekle_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 1361
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:02:54,[127.0.0.1],[1 - Enes ÖZCAN] ,'comdepoekle' içinde hem DataSource hem de DataSourceID tanımlandı. Tanımlardan birini kaldırın.,   konum: System.Web.UI.WebControls.DataBoundControl.EnsureSingleDataSource()
+   konum: System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   konum: System.Web.UI.WebControls.DataBoundControl.GetData()
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.KullaniciYonetimi.depo_listele() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 227
+   konum: EnvanterTveY.KullaniciYonetimi.combolgeekle_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx.cs içinde: satır 1361
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:09:33,[127.0.0.1],[1 - Enes ÖZCAN] ,The multi-part identifier "System.Data.DataRowView" could not be bound.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.dt_bolge_Liste(String il)
+   konum: EnvanterTveY.KullaniciYonetimi.bolge_listele()
+   konum: EnvanterTveY.KullaniciYonetimi.comilekle_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:09:43,[127.0.0.1],[1 - Enes ÖZCAN] ,The multi-part identifier "System.Data.DataRowView" could not be bound.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.dt_bolge_Liste(String il)
+   konum: EnvanterTveY.KullaniciYonetimi.bolge_listele()
+   konum: EnvanterTveY.KullaniciYonetimi.comilekle_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:13:59,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:14:01,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:14:25,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:14:25,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:21:59,[::1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:21:59,[::1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:22:16,[::1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:22:16,[::1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:25:55,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:25:55,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:28:11,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:28:11,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:28:33,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:28:33,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:29:09,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(355): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:29:09,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:29:50,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(314): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:29:50,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:50:39,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(194): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:50:39,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:53:17,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(194): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:53:17,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:54:39,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(194): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:54:39,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+26.12.2020 23:55:57,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KullaniciYonetimi.aspx(361): error CS1061: 'kullaniciyonetimi_aspx' does not contain a definition for 'comilekle_DataBound' and no extension method 'comilekle_DataBound' accepting a first argument of type 'kullaniciyonetimi_aspx' could be found (are you missing a using directive or an assembly reference?),/KullaniciYonetimi
+ 
+ ============================================================== 
+ 
+26.12.2020 23:55:59,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

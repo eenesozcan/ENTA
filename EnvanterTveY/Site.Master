@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="EnvanterTveY.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Envanter Takip ve Yönetim</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+                <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
+        <ContentTemplate>
+
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Sakarya</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="Default">Ana Sayfa</a>
+    </li>
+
+          <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_malzemeislemleri" data-toggle="dropdown">
+        Malzeme İşlemleri
+      </a>
+      <div class="dropdown-menu" id="menu_malzeme_alt" runat="server">
+        <a class="dropdown-item" href="MalzemeYonetimi">Malzeme Yönetimi</a>
+        <a class="dropdown-item" href="MalzemeBul">Malzeme Bul</a>
+      </div>
+    </li>
+          <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_sevkislemleri" data-toggle="dropdown">
+        Sevk İşlemleri
+      </a>
+      <div class="dropdown-menu" id="menu_sevk_alt" runat="server">
+        <a class="dropdown-item" href="SevkYonetimi">Sevk Yönetimi</a>
+      </div>
+    </li>
+
+          <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_varlikislemleri" data-toggle="dropdown">
+        Varlık İşlemleri
+      </a>
+      <div class="dropdown-menu" id="menu_varlik_alt" runat="server">
+        <a class="dropdown-item" href="VarlikYonetimi">Varlık Yönetimi</a>
+        <a class="dropdown-item" href="Adresler">Adres Yönetimi</a>
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_ayarlar" data-toggle="dropdown">
+        Ayarlar
+      </a>
+      <div class="dropdown-menu" id="menu_ayarlar_alt" runat="server">
+        <a class="dropdown-item" href="il">İl Ayarları</a>
+        <a class="dropdown-item" href="Bolge">Bölge Ayarları</a>
+        <a class="dropdown-item" href="Depom">Depo Yönetimi</a>
+        <a class="dropdown-item" href="DepoAyar">Malzeme ve Depo Ayarları</a>
+        <a class="dropdown-item" href="SevkAyar">Sevk Ayarları</a>
+        <a class="dropdown-item" href="VarlikAyar">Varlık Ayarları</a>
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_raporlar" data-toggle="dropdown">
+        Raporlar
+      </a>
+      <div class="dropdown-menu" id="menu_raporlar_alt" runat="server">
+        <a class="dropdown-item" href="Rapor">Raporlar</a>
+      </div>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_araclar" data-toggle="dropdown">
+        Araçlar
+      </a>
+      <div class="dropdown-menu" id="menu_araclar_alt" runat="server">
+        <a class="dropdown-item" href="SifreDegistir">Şifre Değiştir</a>
+      </div>
+    </li>
+
+          <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_yonetim" data-toggle="dropdown">
+        Yönetim
+      </a>
+      <div class="dropdown-menu" id="menu_yonetim_alt" runat="server">
+        <a class="dropdown-item" href="KullaniciYonetimi">Kullanıcı Yönetimi</a>
+        <a class="dropdown-item" href="GenelAyar">Genel Ayarlar</a>
+       <!-- <a class="dropdown-item" href="SQLislemleri">SQL İşlemleri</a>
+        <a class="dropdown-item" href="HataDosyasiOku">Hata Dosyası Oku</a>-->
+      </div>
+    </li>
+  </ul>
+            <div class="" style="right:100px; position: absolute;">
+                <asp:Label ID="lblgiris" runat="server" CssClass="label-isim" Text=""></asp:Label>
+                                <asp:LinkButton ID="lnkbutoncikis" runat="server" Visible="true" 
+                CssClass="border-radius: 12px  text-right btn btn-warning text-white" OnClick="lnkbutoncikis_Click" >Çıkış</asp:LinkButton>    
+            </div>
+</nav> 
+
+  </ContentTemplate>
+        </asp:UpdatePanel>
+
+        <div class="container-fluid">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

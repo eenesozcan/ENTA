@@ -1,0 +1,460 @@
+ 
+ ============================================================== 
+ 
+5.01.2021 02:04:36,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+5.01.2021 02:06:27,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+5.01.2021 13:12:08,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\Rapor.aspx(20): error CS1061: 'rapor_aspx' does not contain a definition for 'combolgeara_SelectedIndexChanged' and no extension method 'combolgeara_SelectedIndexChanged' accepting a first argument of type 'rapor_aspx' could be found (are you missing a using directive or an assembly reference?),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 13:12:08,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+5.01.2021 13:59:01,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 13:59:03,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 13:59:13,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 13:59:59,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:00:00,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:00:50,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:01:25,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:01:27,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:01:59,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:01:59,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:02:04,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:06:21,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:06:30,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:06:46,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:07:03,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:07:21,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:07:22,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:00,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:02,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:05,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:08,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:10,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:08:40,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:10:37,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:10:39,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:10:55,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:10:58,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:11:00,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:11:08,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:12:55,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:12:56,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:13:01,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 14:13:45,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:19:05,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:21:09,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:21:12,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:27:41,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:27:42,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:28:59,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:29:00,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:29:07,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 15:29:08,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:23,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:24,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:25,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:25,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:25,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor
+ 
+ ============================================================== 
+ 
+5.01.2021 16:06:26,[127.0.0.1],[1 - Enes ÖZCAN] ,Geçersiz geri gönderme veya geri çağırma bağımsız değişkeni.  Yapılandırmada <pages enableEventValidation="true"/> veya sayfada <%@ Page EnableEventValidation="true" %> kullanılarak olay doğrulaması etkinleştirildi. Bu özellik güvenlik nedenleriyle, geri gönderme veya geri çağırma olayları bağımsız değişkenlerinin bunları başlangıçta işleyen sunucu denetiminden kaynaklandığını doğrular. Veriler geçerliyse ve beklendiği gibiyse, geri gönderme veya geri çağırma verilerini doğrulanmak üzere kaydetmek için ClientScriptManager.RegisterForEventValidation metodunu kullanın.,   konum: System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   konum: System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   konum: System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   konum: System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Rapor

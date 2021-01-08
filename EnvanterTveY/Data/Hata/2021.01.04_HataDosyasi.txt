@@ -1,0 +1,8 @@
+ 
+ ============================================================== 
+ 
+4.01.2021 12:48:43,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

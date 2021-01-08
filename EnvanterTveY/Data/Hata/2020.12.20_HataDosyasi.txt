@@ -1,0 +1,613 @@
+ 
+ ============================================================== 
+ 
+20.12.2020 00:01:29,[::1],[4 - eskisehir Turksat] ,Invalid object name 'ADRES_MAHALE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.Adresler.mahalle_sec()
+   konum: EnvanterTveY.Adresler.comilce_sec_caddesokak_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 00:58:58,[::1],[4 - eskisehir Turksat] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.Adresler.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 329
+   konum: EnvanterTveY.Adresler.commahalle_sec_binano_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1093
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 00:59:10,[::1],[4 - eskisehir Turksat] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.Adresler.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 329
+   konum: EnvanterTveY.Adresler.commahalle_sec_binano_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1093
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 00:59:40,[::1],[4 - eskisehir Turksat] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.Adresler.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 329
+   konum: EnvanterTveY.Adresler.commahalle_sec_binano_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1093
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 00:59:52,[::1],[4 - eskisehir Turksat] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.Adresler.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 329
+   konum: EnvanterTveY.Adresler.commahalle_sec_binano_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1093
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 01:01:55,[::1],[4 - eskisehir Turksat] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.Adresler.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 329
+   konum: EnvanterTveY.Adresler.commahalle_sec_binano_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1093
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 01:17:18,[::1],[4 - eskisehir Turksat] ,Bağlantı kapatılmadı. Bağlantının geçerli durumu: açık.,   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: EnvanterTveY.Adresler.btnsil_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1168
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 01:17:58,[::1],[4 - eskisehir Turksat] ,Bağlantı kapatılmadı. Bağlantının geçerli durumu: açık.,   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: EnvanterTveY.Adresler.btnsil_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\Adresler.aspx.cs içinde: satır 1168
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 01:18:24,[::1],[4 - eskisehir Turksat] ,Invalid column name 'CADDESOKAK'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.Adresler.btnsil_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 11:08:32,[::1],[1 - Enes ÖZCAN] ,Bağlantı kapatılmadı. Bağlantının geçerli durumu: açık.,   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: EnvanterTveY.Adresler.btnsil_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 11:13:39,[::1],[1 - Enes ÖZCAN] ,Invalid column name 'V_ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.VarlikYonetimi.listele_varlik()
+   konum: EnvanterTveY.VarlikYonetimi.btnara_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 11:17:14,[::1],[1 - Enes ÖZCAN] ,Invalid column name 'V_ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.VarlikYonetimi.listele_varlik() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx.cs içinde: satır 273
+   konum: EnvanterTveY.VarlikYonetimi.Page_Load(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx.cs içinde: satır 37
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 12:35:03,[::1],[1 - Enes ÖZCAN] ,Incorrect syntax near 'AM'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.Adresler.listele_binano()
+   konum: EnvanterTveY.Adresler.Page_Load(Object sender, EventArgs e)
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 12:35:37,[::1],[1 - Enes ÖZCAN] ,Column 'ADRES_BINANO.ID' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.Adresler.listele_binano()
+   konum: EnvanterTveY.Adresler.Page_Load(Object sender, EventArgs e)
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 12:37:03,[::1],[1 - Enes ÖZCAN] ,Column 'ADRES_BINANO.ID' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.Adresler.listele_binano()
+   konum: EnvanterTveY.Adresler.Page_Load(Object sender, EventArgs e)
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Adresler
+ 
+ ============================================================== 
+ 
+20.12.2020 19:27:01,[::1],[1 - Enes ÖZCAN] ,Invalid object name 'ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 442
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Ilce_Listele() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx.cs içinde: satır 941
+   konum: EnvanterTveY.VarlikYonetimi.comlokasyon_kayit_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip ve Yönetim\EnvanterTveY\EnvanterTveY\VarlikYonetimi.aspx.cs içinde: satır 620
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 19:42:44,[::1],[1 - Enes ÖZCAN] ,Conversion failed when converting the varchar value 'ADANA' to data type int.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   konum: System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   konum: System.Data.SqlClient.SqlDataReader.Read()
+   konum: System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   konum: System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   konum: System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   konum: System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   konum: System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   konum: System.Data.DataTable.Load(IDataReader reader)
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Ilce_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comlokasyon_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 19:43:13,[::1],[1 - Enes ÖZCAN] ,Conversion failed when converting the varchar value 'ADANA' to data type int.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   konum: System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   konum: System.Data.SqlClient.SqlDataReader.Read()
+   konum: System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   konum: System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   konum: System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   konum: System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   konum: System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   konum: System.Data.DataTable.Load(IDataReader reader)
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Ilce_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comlokasyon_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 19:46:03,[::1],[1 - Enes ÖZCAN] ,Invalid object name 'ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Mahalle_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comilce_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 19:46:59,[::1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', ID adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Mahalle_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comilce_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 19:48:31,[::1],[1 - Enes ÖZCAN] ,Column 'ADRES_MAHALLE.ID' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.VarlikYonetimi.Bina_Mahalle_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comilce_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 20:08:42,[::1],[1 - Enes ÖZCAN] ,Invalid column name 'CADDESOKAK'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.VarlikYonetimi.Bina_BinaNo_Listele()
+   konum: EnvanterTveY.VarlikYonetimi.comcdsk_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 23:13:08,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'V_ADRES_ID'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 23:15:07,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid object name 'ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 23:21:57,[127.0.0.1],[1 - Enes ÖZCAN] ,The multi-part identifier "ADRES.ID" could not be bound.
+The multi-part identifier "ADRES.ILCE" could not be bound.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 23:25:35,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid object name 'ADRES'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
+ 
+ ============================================================== 
+ 
+20.12.2020 23:26:02,[127.0.0.1],[1 - Enes ÖZCAN] ,Bağlantı kapatılmadı. Bağlantının geçerli durumu: açık.,   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: EnvanterTveY.VarlikYonetimi.grid_RowCommand(Object sender, GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   konum: System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   konum: System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   konum: System.Web.UI.WebControls.Button.OnCommand(CommandEventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/VarlikYonetimi
