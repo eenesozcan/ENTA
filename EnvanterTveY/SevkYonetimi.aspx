@@ -13,7 +13,6 @@
             <ContentTemplate>
 
 <div class="container-fluid" >
-
         <div class="row">
                 <div class="col-md-2 col-xs-12">
                     <label for="">Kaynak Bölge</label>

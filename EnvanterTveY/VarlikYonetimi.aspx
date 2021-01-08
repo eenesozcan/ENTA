@@ -10,6 +10,7 @@
 
     <div class="container-fluid" style="margin-left:30px; margin-top: 20px">
 
+        
         <div class="row">
             <span class="baslik">Varlık Yönetimi</span>
         </div>
