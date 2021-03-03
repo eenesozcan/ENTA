@@ -12,7 +12,7 @@
     <link href="Content/giris.css" rel="stylesheet" />
 
     <meta http-equiv="refresh" content="300">
-     <link id="Link2" runat="server" rel="icon" href="images/sakarya_logo1.png" type="image/ico" /> 
+     <link id="Link2" runat="server" rel="icon" href="images/turksat-logo2.png" type="image/ico" /> 
     <style>
 
         .login-container {
@@ -34,7 +34,7 @@
 
     <form id="form1" runat="server">
     <div>
-        <img src="/images/sakarya_logo1.png" style="width:350px;height: 150px" alt="Sakarya Üniversitesi">
+        <img src="/images/turksat-logo2.png" style="width:350px;height: 100px" alt="Kablo">
 
             <br />
 
@@ -51,7 +51,8 @@
                 <asp:Label ID="lblgirisdurum" runat="server" 
                 CssClass="label_durum_hata"></asp:Label>   
             </div>
-
+            <asp:LinkButton ID="LinkButton1" runat="server" CssClass="sifreunuttum" 
+                                onclick="Button2_Click">Şifremi Unuttum</asp:LinkButton>
          <asp:Panel ID="Panel_captcha" runat="server" Height="50px">
                                 
                 <table style="width: 400px; height: 50px; vertical-align:middle; ">

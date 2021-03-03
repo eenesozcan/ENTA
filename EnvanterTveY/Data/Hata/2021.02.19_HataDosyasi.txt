@@ -1,0 +1,1264 @@
+ 
+ ============================================================== 
+ 
+19.02.2021 13:55:22,[127.0.0.1],[1 - Hasan SAVUN] ,Login failed for user 'enes'.,   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.RaporPort.yil_doldur() E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 42
+   konum: EnvanterTveY.RaporPort.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 21
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+19.02.2021 13:56:38,[127.0.0.1],[1 - Hasan SAVUN] ,Login failed for user 'enes'.,   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.RaporPort.yil_doldur() E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 42
+   konum: EnvanterTveY.RaporPort.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 21
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+19.02.2021 14:56:08,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:12,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:14,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:18,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:21,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:24,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:27,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:30,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:35,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:39,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:41,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:45,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:48,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:51,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:53,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:56,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:56:59,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:02,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:05,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:08,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:19,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:23,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:26,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:29,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:33,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:36,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:39,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:43,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:45,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:48,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:52,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:55,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:57:58,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:00,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:04,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:07,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:10,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:13,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:16,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:18,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:21,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:24,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:27,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 14:58:30,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:10:48,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:10:51,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:10:56,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:10:59,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:02,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:05,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:08,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:10,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:22,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:24,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:35,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:41,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:11:44,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:15:12,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:15:27,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:15:30,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:15:42,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:15:54,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:18:23,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:18:53,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:18:57,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:19:11,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:19:31,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(144): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:19:52,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Default
+ 
+ ============================================================== 
+ 
+19.02.2021 15:19:56,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:02,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:14,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:29,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:40,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/Default
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:57,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:20:59,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:21:00,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:21:19,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:21:20,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:22:25,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:22:29,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:22:30,[127.0.0.1],[1 - Hasan SAVUN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.SiteMaster.Page_Load(Object sender, EventArgs e) E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master.cs içinde: satır 25
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/SevkYonetimi
+ 
+ ============================================================== 
+ 
+19.02.2021 15:24:22,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:24:44,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:24:51,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:25:09,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:25:26,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:25:47,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:00,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:07,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:15,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:22,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:29,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:26:43,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(153): error CS1061: 'site_master' does not contain a definition for 'btndegistir_Click' and no extension method 'btndegistir_Click' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossA 
+ ============================================================== 
+ 
+19.02.2021 15:27:06,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:27:15,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:27:28,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:27:41,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:28:09,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:28:33,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:28:39,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:28:55,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:29:07,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:35:42,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:35:56,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:36:05,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:36:23,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:36:35,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:36:54,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:37:06,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:37:11,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:37:26,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:37:40,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:37:46,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:38:00,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:38:13,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:38:17,[127.0.0.1],-,E:\CALISMALAR\Envanter Takip\EnvanterTveY\EnvanterTveY\Site.Master(59): error CS1061: 'site_master' does not contain a definition for 'repeater_sol_main_ItemDataBound' and no extension method 'repeater_sol_main_ItemDataBound' accepting a first argument of type 'site_master' could be found (are you missing a using directive or an assembly reference?),   konum: System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   konum: System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   konum: System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean n 
+ ============================================================== 
+ 
+19.02.2021 15:55:22,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 15:55:23,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:02,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:03,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:03,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:00:03,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:02:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:06,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:19,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:19,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:19,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:20,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:21,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:24,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:25,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:26,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:26,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:26,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:26,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:29,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:30,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:05:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx
+ 
+ ============================================================== 
+ 
+19.02.2021 16:06:31,[127.0.0.1],-,'/Images/HataOlustu.aspx' dosyası yok.,/Images/HataOlustu.aspx

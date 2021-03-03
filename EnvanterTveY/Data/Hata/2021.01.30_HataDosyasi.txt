@@ -1,0 +1,435 @@
+ 
+ ============================================================== 
+ 
+30.01.2021 01:01:42,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx(30): error CS1061: 'ruhsatadres_aspx' does not contain a definition for 'btnil_ekle_Click' and no extension method 'btnil_ekle_Click' accepting a first argument of type 'ruhsatadres_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatAdres.aspx
+ 
+ ============================================================== 
+ 
+30.01.2021 01:01:43,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+30.01.2021 01:03:23,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx(72): error CS1061: 'ruhsatadres_aspx' does not contain a definition for 'btnbolge_ekle_Click' and no extension method 'btnbolge_ekle_Click' accepting a first argument of type 'ruhsatadres_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 01:03:26,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+30.01.2021 01:04:17,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx(239): error CS1061: 'ruhsatadres_aspx' does not contain a definition for 'btnbinano_ekle_Click' and no extension method 'btnbinano_ekle_Click' accepting a first argument of type 'ruhsatadres_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 01:04:17,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+30.01.2021 01:08:17,[127.0.0.1],[1 - Enes ÖZCAN] ,'comil_sec1' öğe listelerinde bulunmadığından geçerli olmayan bir SelectedIndex öğesine sahip.
+Parametre adı: value,   konum: System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   konum: System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   konum: EnvanterTveY.RuhsatAdres.btnbolge_ekle_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx.cs içinde: satır 1079
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 01:09:47,[127.0.0.1],[1 - Enes ÖZCAN] ,'comil_sec1' öğe listelerinde bulunmadığından geçerli olmayan bir SelectedIndex öğesine sahip.
+Parametre adı: value,   konum: System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   konum: System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   konum: EnvanterTveY.RuhsatAdres.btnbolge_ekle_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx.cs içinde: satır 1079
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 10:04:16,[127.0.0.1],[1 - Enes ÖZCAN] ,The DELETE statement conflicted with the REFERENCE constraint "il_FK". The conflict occurred in database "ENTA", table "dbo.BOLGE", column 'IL'.
+The statement has been terminated.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: EnvanterTveY.RuhsatAdres.btnsil_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 10:06:55,[127.0.0.1],[1 - Enes ÖZCAN] ,The DELETE statement conflicted with the REFERENCE constraint "BOLGE_ID_ADRES_ILCE_FK". The conflict occurred in database "ENTA", table "dbo.ADRES_ILCE", column 'BOLGE_ID'.
+The statement has been terminated.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: EnvanterTveY.RuhsatAdres.btnsil_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 11:56:52,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid object name 'RUHSAT_IL_ADI'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.RuhsatAdres.listele_il() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx.cs içinde: satır 49
+   konum: EnvanterTveY.RuhsatAdres.Page_Load(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx.cs içinde: satır 26
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+30.01.2021 12:55:52,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator2' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'txtmetraj' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 12:55:53,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator2' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'txtmetraj' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 12:55:56,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator2' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'txtmetraj' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 12:55:57,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator2' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'txtmetraj' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 12:56:16,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator2' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'txtmetraj' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:15:10,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 207
+   konum: EnvanterTveY.RuhsatTalep.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 98
+   konum: EnvanterTveY.RuhsatTalep.btnruhsatekle_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 202
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:20:28,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 207
+   konum: EnvanterTveY.RuhsatTalep.caddesokak_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 98
+   konum: EnvanterTveY.RuhsatTalep.commahalle_kayit_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 233
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:21:33,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'MAHALLE'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql)
+   konum: EnvanterTveY.RuhsatTalep.caddesokak_sec()
+   konum: EnvanterTveY.RuhsatTalep.commahalle_kayit_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:30:20,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator4' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'comcalismatipi_kayit' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:31:03,[127.0.0.1],[1 - Enes ÖZCAN] ,'RequiredFieldValidator4' öğesinin 'ControlToValidate' özelliği tarafından başvurulan 'comcalismatipi_kayit' denetim kimliği bulunamadı.,   konum: System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   konum: System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   konum: System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Control.PreRenderRecursiveInternal()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:42:30,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'KAZI_TURU'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 207
+   konum: EnvanterTveY.RuhsatTalep.ruhsat_kazi_turu_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 131
+   konum: EnvanterTveY.RuhsatTalep.btnruhsatekle_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 243
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 16:44:13,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'KAZI_TURU'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData(String sql) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\KodT\kodlar.cs içinde: satır 207
+   konum: EnvanterTveY.RuhsatTalep.ruhsat_kazi_turu_sec() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 131
+   konum: EnvanterTveY.RuhsatTalep.btnruhsatekle_Click(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx.cs içinde: satır 243
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 20:08:42,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.RuhsatTalep.btnruhstkaydet_Click(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   konum: System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   konum: System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 21:28:14,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\datetimepicker.aspx(24): error CS1061: 'datetimepicker_aspx' does not contain a definition for 'comizintipi_SelectedIndexChanged' and no extension method 'comizintipi_SelectedIndexChanged' accepting a first argument of type 'datetimepicker_aspx' could be found (are you missing a using directive or an assembly reference?),/datetimepicker
+ 
+ ============================================================== 
+ 
+30.01.2021 21:28:14,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+30.01.2021 21:33:42,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\datetimepicker.aspx(31): error CS1061: 'datetimepicker_aspx' does not contain a definition for 'txtbastarihi_TextChanged' and no extension method 'txtbastarihi_TextChanged' accepting a first argument of type 'datetimepicker_aspx' could be found (are you missing a using directive or an assembly reference?),/datetimepicker
+ 
+ ============================================================== 
+ 
+30.01.2021 21:33:42,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+30.01.2021 22:36:12,[127.0.0.1],[1 - Enes ÖZCAN] ,Invalid column name 'V_IL_ID'.
+Invalid column name 'V_BOLGE_ID'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: EnvanterTveY.RuhsatTalep.listele_ruhsat()
+   konum: EnvanterTveY.RuhsatTalep.Page_Load(Object sender, EventArgs e)
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+30.01.2021 22:36:54,[127.0.0.1],[1 - Enes ÖZCAN] ,'BOLGE' adlı bir alan veya özellik seçili veri kaynağında bulunamadı.,   konum: System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   konum: System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   konum: System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   konum: System.Web.UI.Control.DataBind()
+   konum: System.Web.UI.Control.DataBindChildren()
+   konum: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   konum: System.Web.UI.Control.DataBind()
+   konum: System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   konum: System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   konum: System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   konum: System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   konum: System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: System.Web.UI.WebControls.GridView.DataBind()
+   konum: EnvanterTveY.RuhsatTalep.listele_ruhsat()
+   konum: EnvanterTveY.RuhsatTalep.Page_Load(Object sender, EventArgs e)
+   konum: System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   konum: System.Web.UI.Control.OnLoad(EventArgs e)
+   konum: System.Web.UI.Control.LoadRecursive()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RuhsatTalep

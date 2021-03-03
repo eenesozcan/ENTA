@@ -76,6 +76,15 @@ namespace EnvanterTveY {
         protected global::System.Web.UI.WebControls.Label lblgirisdurum;
         
         /// <summary>
+        /// LinkButton1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+        
+        /// <summary>
         /// Panel_captcha denetimi.
         /// </summary>
         /// <remarks>

@@ -1,0 +1,57 @@
+ 
+ ============================================================== 
+ 
+14.01.2021 14:04:24,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx(49): error CS1061: 'raporport_aspx' does not contain a definition for 'comraporsec1_SelectedIndexChanged' and no extension method 'comraporsec1_SelectedIndexChanged' accepting a first argument of type 'raporport_aspx' could be found (are you missing a using directive or an assembly reference?),/RaporPort
+ 
+ ============================================================== 
+ 
+14.01.2021 14:04:24,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+14.01.2021 14:05:21,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx(49): error CS1061: 'raporport_aspx' does not contain a definition for 'comraporsec1_SelectedIndexChanged' and no extension method 'comraporsec1_SelectedIndexChanged' accepting a first argument of type 'raporport_aspx' could be found (are you missing a using directive or an assembly reference?),/RaporPort
+ 
+ ============================================================== 
+ 
+14.01.2021 14:05:21,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+14.01.2021 14:07:28,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx(49): error CS1061: 'raporport_aspx' does not contain a definition for 'comraporsec1_SelectedIndexChanged' and no extension method 'comraporsec1_SelectedIndexChanged' accepting a first argument of type 'raporport_aspx' could be found (are you missing a using directive or an assembly reference?),/RaporPort
+ 
+ ============================================================== 
+ 
+14.01.2021 14:07:30,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+14.01.2021 14:07:49,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx(49): error CS1061: 'raporport_aspx' does not contain a definition for 'comraporsec1_SelectedIndexChanged' and no extension method 'comraporsec1_SelectedIndexChanged' accepting a first argument of type 'raporport_aspx' could be found (are you missing a using directive or an assembly reference?),/RaporPort
+ 
+ ============================================================== 
+ 
+14.01.2021 14:07:49,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+14.01.2021 21:04:46,[127.0.0.1],[1 - Enes ÖZCAN] ,Nesne başvurusu bir nesnenin örneğine ayarlanmadı.,   konum: EnvanterTveY.RaporPort.chc_tarih_CheckedChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.CheckBox.OnCheckedChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.CheckBox.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.CheckBox.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort

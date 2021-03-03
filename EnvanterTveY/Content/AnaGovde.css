@@ -1,0 +1,243 @@
+﻿
+
+/* icerik alani */
+.kapsul {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /*margin: 0 auto -6em; */ /* altAlan yukseklik degeri ile ayn olmali */
+    
+}
+
+#solAlan {
+    /* float: left; */
+    /* clear: both; */
+    /*width: 140px;*/
+    height: auto;
+    /* margin-bottom: 1em; */
+    /* margin-top: 75px; */
+    margin-top: 15px;
+    /*padding-top: 75px;*/
+    position: fixed;
+    z-index: 1000;
+    /* margin-bottom: 1em; */
+    /* margin-top: 80px; */
+    background-color: #535353;
+    top: 25px;
+    display: block;
+    /* float: left; */
+    /* margin-left: 40px; */
+    bottom: 0px;
+}
+
+
+
+#sol_menu {
+    float: left;
+    position: relative;
+    width: 15%;
+    left: 0px;
+    height: 110%;
+}
+
+
+
+#sol_menu_yeni {
+    /* box-shadow: 1px 0 20px rgba(0,0,0,.08); */
+    padding-top: 50px;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+    #sol_menu_yeni .inner_middle {
+        margin: 0 auto;
+        overflow: scroll;
+        margin-top: 12px;
+    }
+
+
+.icerikAlani {
+    /*margin: 0px 0px 0px 0px;*/
+    font: 1em Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 0 20px rgba(0,0,0,.08);
+    margin-right: 40px;
+    margin-left: 180px;
+    margin-top: 110px;
+    /*top: 50px; */
+    float: left;
+    /*position: absolute; */
+    width: -moz-available;
+    /*
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    */
+    top: 0px;
+    position: absolute;
+    bottom: 35px;
+    overflow-x: auto;
+    
+    overflow-y: auto;
+    width:100%;
+    right:0px;
+    
+}
+
+
+#alt_bar {
+    width: 100%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #aea6a6;
+    /*box-shadow: 5px 5px 10px #aeaaaa;*/
+    padding-bottom: 0px;
+    /*overflow: visible !important;*/
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    bottom: 0px;
+}
+
+
+#menu_alt {
+    width: 100%;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #535353;
+    box-shadow: 5px 5px 10px #aeaaaa;
+    padding-bottom: 0px;
+    /*overflow: visible !important;*/
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    float: left;
+}
+
+.menu_alt {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2A4D6D;
+    box-shadow: 5px 5px 10px #8f8f8f;
+    padding-bottom: 0px;
+    overflow: visible !important;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+#ust_baslik_user {
+    position: relative;
+    width: 900px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#isim {
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    /*position: absolute;*/
+    left: 130px;
+    top: 3px;
+    color: #000000;
+    text-align: left;
+}
+
+#isim_alt {
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    color: #666666;
+}
+
+
+#isim_giris {
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+    /* background-color: #fff; */
+    padding: 5px 15px 5px 15px;
+    /*
+    min-width: 250px;
+    width: 250px;
+        */
+    bottom: 0px;
+    position: relative;
+    /*box-shadow: 7px 7px 30px 5px rgba(0,0,0,0.1);*/
+    margin-top: 6px;
+    /* padding-top: 5px; */
+    float: left;
+}
+
+
+.logoc {
+    background-position: 10px 11px;
+    /*background-image: url('../personel_v1.3/Images/turksat-logo-beyaz.png');*/
+    /*background-image: url("../../Images/turksat-logo-beyaz.png");*/
+    /*    background-image: url('../personel_v1.3/Images/turksat-logo.png');*/
+    height: 40px;
+    background-size: 140px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 220px;
+    margin-top: 6px;
+}
+
+
+.menu_root {
+    margin: 0px 0px 0px 0px;
+    font: 1em Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-shadow: 1px 0 8px rgba(0,0,0,.08);
+    margin-right: 40px;
+    /* margin-left: 220px; */
+    /* margin-top: 60px; */
+    top: 55px;
+    float: left;
+    position: absolute;
+    /* margin-top: 100px; */
+    right: 0px;
+    /* width: 100%; */
+    left: 180px;
+    text-align: left;
+    padding-bottom: 10px;
+    height:45px;
+}
+
+.menu_root_a {
+    display: inline-block;
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+    .menu_root_a:hover {
+        text-decoration: underline;
+    }

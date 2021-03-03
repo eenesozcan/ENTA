@@ -27,11 +27,11 @@ namespace EnvanterTveY
         }
         protected void btnara_Click(object sender, EventArgs e)
         {
-            lblsql.Text = tkod.sql_calistir1("Select DEGER FROM COMDOLDUR WHERE SECENEK = '" + comraporsec.SelectedItem + "' ");
+            string sql = tkod.sql_calistir1("Select DEGER FROM COMDOLDUR WHERE ID = '" + comraporsec.SelectedValue + "' ");
 
             try
             {
-                string sql1 = "Select "  + lblsql.Text;
+                string sql1 = "Select "  + sql;
 
                 conn.Open();
                 SqlCommand sorgu = new SqlCommand();
@@ -62,7 +62,7 @@ namespace EnvanterTveY
             comraporsec.AppendDataBoundItems = true;
 
             SqlDataAdapter da = new SqlDataAdapter();
-            SqlCommand cmd = new SqlCommand("Select DEGER AS ID,SECENEK FROM COMDOLDUR WHERE COM_ADI = 'comraporsec'  ORDER BY SIRA  ");
+            SqlCommand cmd = new SqlCommand("Select ID, SECENEK FROM COMDOLDUR WHERE COM_ADI = 'comraporsec'  ORDER BY SIRA  ");
             DataTable dt = new DataTable();
             da.SelectCommand = cmd;
             da.SelectCommand.Connection = conn;

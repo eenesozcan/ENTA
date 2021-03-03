@@ -357,6 +357,7 @@ namespace EnvanterTveY
             comvarlikadi_ara.DataSource = tkod.GetData(sql);
             comvarlikadi_ara.DataBind();
         }
+
         protected void btnvarlikekle_Click(object sender, EventArgs e)
         {
             comil_kayit.Enabled = true;

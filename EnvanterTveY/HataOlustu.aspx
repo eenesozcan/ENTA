@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="HataOlustu.aspx.cs" Inherits="EnvanterTveY.App_Start.HataOlustu" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HataOlustu.aspx.cs" Inherits="EnvanterTveY.HataOlustu" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -13,10 +13,10 @@
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="images/sakarya_logo1.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/turksat-logo2.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server ">
    
  <div class="page" id="home">
   

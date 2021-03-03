@@ -1,0 +1,64 @@
+ 
+ ============================================================== 
+ 
+29.01.2021 11:53:15,[127.0.0.1],-,D:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(198): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'comlokasyon_kayit_SelectedIndexChanged' and no extension method 'comlokasyon_kayit_SelectedIndexChanged' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep.aspx
+ 
+ ============================================================== 
+ 
+29.01.2021 11:53:15,[127.0.0.1],-,D:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(198): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'comlokasyon_kayit_SelectedIndexChanged' and no extension method 'comlokasyon_kayit_SelectedIndexChanged' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+29.01.2021 11:53:15,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+29.01.2021 12:04:38,[127.0.0.1],-,D:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(228): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'btnharita_Click' and no extension method 'btnharita_Click' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+29.01.2021 12:04:39,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+29.01.2021 12:54:06,[127.0.0.1],-,D:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(279): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'btnmetrajekle_Click' and no extension method 'btnmetrajekle_Click' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+29.01.2021 12:54:06,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+29.01.2021 12:54:13,[127.0.0.1],-,D:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(279): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'btnmetrajekle_Click' and no extension method 'btnmetrajekle_Click' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep
+ 
+ ============================================================== 
+ 
+29.01.2021 12:54:13,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu
+ 
+ ============================================================== 
+ 
+29.01.2021 21:45:47,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatAdres.aspx(28): error CS1061: 'ruhsatadres_aspx' does not contain a definition for 'btnil_ekle_Click' and no extension method 'btnil_ekle_Click' accepting a first argument of type 'ruhsatadres_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatAdres
+ 
+ ============================================================== 
+ 
+29.01.2021 21:45:48,[127.0.0.1],[1 - Enes ÖZCAN] ,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

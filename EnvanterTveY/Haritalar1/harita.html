@@ -1,0 +1,188 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>Harita Uygulaması ||  Hasan SAVUN </title>
+	<link rel="stylesheet" href="http://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+	<script src="http://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.map&lang=tr-TR" type="text/javascript"></script>
+	<script src="layer/tile/Yandex.js"></script>
+	<script src="layer/vector/KML.js"></script>
+    <script type="text/javascript" src="layer/vector/KMZ.js"></script>
+	
+	<script type="text/javascript" src="zip/zip.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+<!--[if lt IE 9]>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
+<![endif]-->
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+
+
+<script type="text/javascript">
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+</script>
+
+
+</head>
+<body>
+    
+    
+   
+   
+    <div style="width:100%; height:100%" id="map"></div>
+
+<script type='text/javascript'>
+    zip.workerScriptsPath = 'zip/';
+
+    var map = new L.Map('map', { center: new L.LatLng(39.64, 27.64), zoom: 10, zoomAnimation: false }).fitWorld();
+    var osm = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+    var yndx = new L.Yandex("satellite");
+    //var ytraffic = new L.Yandex("null", { traffic: true, opacity: 0.8, overlay: true });
+    map.locate({ setView: true, maxZoom: 20 });
+
+    //L.mapbox.accessToken = 'pk.eyJ1IjoiaG93YXJkYjMxMTUiLCJhIjoiY2lxbmkyajBiMDFhMGZwbm5pbXRrcDNqaCJ9.R1-OPUXa6rfCw3qLONJ7SQ';
+    //var map = L.mapbox.map('map', 'mapbox.streets');
+    //L.control.locate().addTo(map);
+
+
+    //var kmlurl = "http://bim.hasansavun.com.tr/Download/indir?id=82b69f76-5bf9-4e4a-9a33-f8b6a1c6243e";
+    //var kmlfile = "hasan-test";
+    var kmlurl = "http://"+window.location.host + "/Download/indir?id="+ getParameterByName('kmzurl');
+    var kmlfile = getParameterByName('kmzfile'); 
+    //var foo = getParameterByName('kmzfile'); 
+    //alert(kmlurl);
+
+
+    /*
+    var track = new L.KML(kmlurl, { async: true });
+    //var track = new L.KML("http://envanter.hasansavun.com.tr/Download.aspx?islem=download&id=57C36683-5D82-4E7E-92EF-D7919F4B7ADE", { async: true });
+    track.on("loaded", function (e) {
+        map.fitBounds(e.target.getBounds());
+    });
+
+    */
+    
+    //alert(kmlurl);
+
+    //var thisKMZURL = 'FIBER.kmz';
+    var thisKMZURL = kmlurl;
+    //alert(thisKMZURL);
+    thisKMZ = new L.KMZ(thisKMZURL,
+								{ imageOverlayBoundingBoxCreatePopUp: true,
+								    imageOverlayBoundingBoxDrawOptions: { stroke: true,
+								        weight: 2,
+								        fillOpacity: 0.05,
+								        clickable: true
+								    }
+								},
+								'KMZ');
+
+    thisKMZ.on('loaded', function (e) {
+        console.log('In the post L.KMZ call back at the end - loaded!');
+        map.addLayer(thisKMZ);
+        map.fitBounds(thisKMZ.getBounds());
+
+    }
+					  );
+   // alert(thisKMZURL);
+
+
+    map.addLayer(osm);
+    //map.addLayer(track);
+    //map.addLayer(ytraffic);
+    map.addLayer(thisKMZ);
+    map.addControl(new L.Control.Layers({ "Uydu": yndx, 'Harita': osm },
+				    { kmlfile: thisKMZ }));
+
+    //kmzyukle();
+
+
+
+    function kmzyukle() {
+        var thisKMZURL = 'FIBER.kmz';
+        //var thisKMZURL = http://envanter.hasansavun.com.tr/Download.aspx?islem=download&id=57C36683-5D82-4E7E-92EF-D7919F4B7ADE;
+        //track = new L.KML("http://envanter.hasansavun.com.tr/Download.aspx?islem=download&id=57C36683-5D82-4E7E-92EF-D7919F4B7ADE", { async: true });
+        alert(thisKMZURL);
+        thisKMZ = new L.KMZ(thisKMZURL,
+								{ imageOverlayBoundingBoxCreatePopUp: true,
+								    imageOverlayBoundingBoxDrawOptions: { stroke: true,
+								        weight: 2,
+								        fillOpacity: 0.05,
+								        clickable: true
+								    }
+								},
+								'KMZ');
+
+        thisKMZ.on('loaded', function (e) {
+            console.log('In the post L.KMZ call back at the end - loaded!');
+            map.addLayer(thisKMZ);
+            map.fitBounds(thisKMZ.getBounds());
+
+        }
+					  );
+        // alert(thisKMZURL);
+				    }
+
+
+			function kmlyukle(kmlurl1) {
+			    
+			    var track1 = new L.KML(kmlurl1, { async: true });
+			    //var track = new L.KML("http://envanter.hasansavun.com.tr/Download.aspx?islem=download&id=57C36683-5D82-4E7E-92EF-D7919F4B7ADE", { async: true });
+			    track1.on("loaded", function (e) {
+			        map.fitBounds(e.target.getBounds());
+			    });
+			    map.addLayer(track1);
+			    map.fitBounds(track1.getBounds());
+			}
+
+			
+
+</script>
+
+<script type='text/javascript'>
+
+
+</script>
+	<script type='text/javascript'>
+	    var _xml = {
+	        _str2xml: function (strXML) {
+	            if (window.ActiveXObject) {
+	                var doc = new ActiveXObject('Microsoft.XMLDOM');
+	                doc.async = 'false';
+	                doc.loadXML(strXML);
+	            }
+	            // code for Mozilla, Firefox, Opera, etc.
+	            else {
+	                var parser = new DOMParser();
+	                var doc = parser.parseFromString(strXML, 'text/xml');
+	            } // documentElement always represents the root node
+	            return doc;
+	        },
+	        _xml2string: function (xmlDom) {
+	            var strs = null;
+	            var doc = xmlDom.documentElement;
+	            if (doc.xml == undefined) {
+	                strs = (new XMLSerializer()).serializeToString(xmlDom);
+	            } else strs = doc.xml;
+	            return strs;
+
+	        }
+	    };
+	</script>
+
+
+</body>
+</html>

@@ -5,15 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-//ok
-namespace EnvanterTveY.App_Start
+namespace EnvanterTveY
 {
     public partial class HataOlustu : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             string HataMesaji, EkBilgi, saat, sayfa;
-            KodT.kodlar tkod = new KodT.kodlar();
 
             try
             {
@@ -22,7 +20,7 @@ namespace EnvanterTveY.App_Start
                 saat = DateTime.Now.ToString();
                 lblhata.Text = HataMesaji;
                 lblsaat.Text = saat;
-                lblprgramadi.Text = tkod.ayar_al("PROGRAM-ADI");
+                //lblprgramadi.Text = tkod.ayar_al("PROGRAM-ADI");
             }
             catch
             {

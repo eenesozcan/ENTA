@@ -12,7 +12,7 @@
                 <span class="baslik">Program Genel Ayarlar</span>
             </div>
 
-        <ajaxToolkit:TabContainer ID="TabContainer1"  CssClass="Tab4" runat="server" ActiveTabIndex="0"  CssTheme="None"  Width="100%" >
+        <ajaxToolkit:TabContainer ID="TabContainer1"  CssClass="Tab4" runat="server" ActiveTabIndex="1"  CssTheme="None"  Width="100%" >
 
             <ajaxToolkit:TabPanel runat="server" HeaderText="Program Ayarları" ID="TabPanel1" CssClass="ajax__tab_panel">
                 <ContentTemplate>
@@ -32,18 +32,14 @@
                             <td>    <asp:TextBox ID="txtprograminadresi" ValidationGroup="programayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
                     </tr>
                     <tr> 
-                        <td>    <label for="">SSL</label></td>
+                        <td>    &nbsp;</td>
                         <td>    
-                            <asp:DropDownList ID="comssl" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
-                                <asp:ListItem Value="True">Evet</asp:ListItem>
-                                <asp:ListItem Value="False">Hayır</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
+                            &nbsp;</td>
                     </tr>                    
                  </table>
             </div>
         </div>
-
+          </div>
       <div class="row">
          <div class="col-md-12">
                  <div class="input-group">
@@ -56,8 +52,153 @@
        </div>
      </div>
 
-</div>   
+ 
   </div>
+
+ 
+                </ContentTemplate>
+            </ajaxToolkit:TabPanel>
+
+             <ajaxToolkit:TabPanel runat="server" HeaderText="Genel Ayarları" ID="TabPanel3" CssClass="ajax__tab_panel">
+                <ContentTemplate>
+
+   <div class="container-fluid" style="margin-left:30px">
+
+    <div class="row">
+                <!-- <span class="baslik">Bölge EKLE</span> -->
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 col-xs-12">
+            <div class="form-group">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>    <label for="">Giriş</label></td>
+                        <td>    
+                            <asp:DropDownList ID="comgiris" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
+                                <asp:ListItem>LDAP</asp:ListItem>
+                                <asp:ListItem>LOCAL</asp:ListItem>
+                            </asp:DropDownList>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" ControlToValidate="comgiris"  ValidationGroup="ayarkaydet"  runat="server" Display="Dynamic"  CssClass="field-validation-error lb-md" Text="Kablo Tipini Seçiniz." />
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td>    <label for="">Local Giriş</label></td>
+                        <td>    <asp:TextBox ID="txtlocalgiris" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+
+                    <tr> 
+                        <td>    <label for="">Mail Server</label></td>
+                        <td>    <asp:DropDownList ID="commailserver" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
+                                <asp:ListItem>hasan</asp:ListItem>
+                                <asp:ListItem>turksat</asp:ListItem>
+                                <asp:ListItem>custom</asp:ListItem>
+                            </asp:DropDownList></td>
+                    </tr>
+
+                    <tr> 
+                        <td>    <label for="">SSL</label></td>
+                        <td>    
+                            <asp:DropDownList ID="comssl" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
+                                <asp:ListItem Value="True">Evet</asp:ListItem>
+                                <asp:ListItem Value="False">Hayır</asp:ListItem>
+                            </asp:DropDownList>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="comssl"  ValidationGroup="ayarkaydet"  runat="server" Display="Dynamic"  CssClass="field-validation-error lb-md" Text="Kablo Tipini Seçiniz." />
+                        </td>
+
+                    </tr>
+
+
+                      <tr>
+                        <td>    <label for="">Site Yönlendirme</label></td>
+                        <td>    
+                            <asp:DropDownList ID="comyonlendirme" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
+                                 <asp:ListItem Value="True">Evet</asp:ListItem>
+                                <asp:ListItem Value="False">Hayır</asp:ListItem>
+                            </asp:DropDownList>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator12" ControlToValidate="comgiris"  ValidationGroup="ayarkaydet"  runat="server" Display="Dynamic"  CssClass="field-validation-error lb-md" Text="Kablo Tipini Seçiniz." />
+                        </td>
+                    </tr>
+
+
+
+                    <tr> 
+                        <td>    <label for="">Yönlendirilen Link</label></td>
+                        <td>    <asp:TextBox ID="txtyonlink" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+                     <tr>
+                        <td>    <label for="">Local Giriş </label></td>
+                        <td>    
+                            <asp:DropDownList ID="comlocalgiris" CssClass="form-control mb-2 mr-sm-2 mb-sm-0" runat="server" style="margin: 2px;">
+                                 <asp:ListItem Value="True">Evet</asp:ListItem>
+                                <asp:ListItem Value="False">Hayır</asp:ListItem>
+                            </asp:DropDownList>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator13" ControlToValidate="comgiris"  ValidationGroup="ayarkaydet"  runat="server" Display="Dynamic"  CssClass="field-validation-error lb-md" Text="Kablo Tipini Seçiniz." />
+                        </td>
+                    </tr>
+                     <tr> 
+                        <td>    <label for="">Custom Posta Sunucu</label></td>
+                        <td>    <asp:TextBox ID="txtpostasunucu" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+                     <tr> 
+                        <td>    <label for="">Custom Posta Kullanıcı Adı</label></td>
+                        <td>    <asp:TextBox ID="txtpostakullanici" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+                     <tr> 
+                        <td>    <label for="">Custom Posta Şifre</label></td>
+                        <td>    <asp:TextBox ID="txtpostasifre" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+                     <tr> 
+                        <td>    <label for="">Custom Posta Port</label></td>
+                        <td>    <asp:TextBox ID="txtpostaport" ValidationGroup="ayarkaydet"  CssClass="form-control" runat="server" style="margin: 2px;"></asp:TextBox></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+                                                                                <div class="col-md-3 col-xs-12"> 
+                                                                                     <div class="form-group">
+                                                                                       <label for=""></label>
+                                                                                         <label for=""></label>
+                                                                                     </div>
+                                                                               </div>
+                                                                                        <div class="col-md-3 col-xs-12"> 
+                                                                                     <div class="form-group">
+                                                                                       <label for=""></label>
+                                                                                     </div>
+                                                                               </div>
+                                                                                                <div class="col-md-3 col-xs-12"> 
+                                                                                     <div class="form-group">
+                                                                                       <label for=""></label>
+                                                                                     </div>
+                                                                               </div>
+                                                                                                <div class="col-md-3 col-xs-12"> 
+                                                                                     <div class="form-group">
+                                                                                       <label for=""></label>
+                                                                                     </div>
+                                                                               </div>
+                                                                                                <div class="col-md-3 col-xs-12"> 
+                                                                                     <div class="form-group">
+                                                                                       <label for=""></label>
+                                                                                     </div>
+                                                                               </div>
+
+        <div class="col-md-6 col-xs-12 float-right">
+             <label for=""></label>
+              <div class="input-group">
+                  <span>
+
+                                                  <asp:Button ID="btnayarkaydet" runat="server" ValidationGroup="ayarkaydet" CssClass="btn btn-success" OnClick="btnayarkaydet_Click" Text="Ayar Kaydet" />
+
+                      </span>
+              </div>
+         </div>
+
+     </div>
+        </div>  
 
  
                 </ContentTemplate>

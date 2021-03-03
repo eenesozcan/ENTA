@@ -15,7 +15,9 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <script src="Scripts/KabloHE-js.js"></script>
+    <script src="Scripts/loading.js"></script>
+    <script src="Scripts/Menu.js"></script>
 </head>
 <body>
     <form runat="server">
@@ -39,115 +41,248 @@
             </Scripts>
         </asp:ScriptManager>
 
-                <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
+    <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
         <ContentTemplate>
 
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Sakarya</a>
-
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="Default">Ana Sayfa</a>
-    </li>
-
-          <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_malzemeislemleri" data-toggle="dropdown">
-        Malzeme İşlemleri
-      </a>
-      <div class="dropdown-menu" id="menu_malzeme_alt" runat="server">
-        <a class="dropdown-item" href="MalzemeYonetimi">Malzeme Yönetimi</a>
-        <a class="dropdown-item" href="MalzemeBul">Malzeme Bul</a>
-      </div>
-    </li>
-          <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_sevkislemleri" data-toggle="dropdown">
-        Sevk İşlemleri
-      </a>
-      <div class="dropdown-menu" id="menu_sevk_alt" runat="server">
-        <a class="dropdown-item" href="SevkYonetimi">Sevk Yönetimi</a>
-      </div>
-    </li>
-
-          <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_varlikislemleri" data-toggle="dropdown">
-        Varlık İşlemleri
-      </a>
-      <div class="dropdown-menu" id="menu_varlik_alt" runat="server">
-        <a class="dropdown-item" href="VarlikYonetimi">Varlık Yönetimi</a>
-        <a class="dropdown-item" href="Adresler">Adres Yönetimi</a>
-      </div>
-    </li>
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_ayarlar" data-toggle="dropdown">
-        Ayarlar
-      </a>
-      <div class="dropdown-menu" id="menu_ayarlar_alt" runat="server">
-        <a class="dropdown-item" href="il">İl Ayarları</a>
-        <a class="dropdown-item" href="Bolge">Bölge Ayarları</a>
-        <a class="dropdown-item" href="Depom">Depo Yönetimi</a>
-        <a class="dropdown-item" href="DepoAyar">Malzeme ve Depo Ayarları</a>
-        <a class="dropdown-item" href="SevkAyar">Sevk Ayarları</a>
-        <a class="dropdown-item" href="VarlikAyar">Varlık Ayarları</a>
-      </div>
-    </li>
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_raporlar" data-toggle="dropdown">
-        Raporlar
-      </a>
-      <div class="dropdown-menu" id="menu_raporlar_alt" runat="server">
-        <a class="dropdown-item" href="Rapor">Raporlar</a>
-      </div>
-    </li>
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_araclar" data-toggle="dropdown">
-        Araçlar
-      </a>
-      <div class="dropdown-menu" id="menu_araclar_alt" runat="server">
-        <a class="dropdown-item" href="SifreDegistir">Şifre Değiştir</a>
-      </div>
-    </li>
-
-          <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" runat="server" id="menu_yonetim" data-toggle="dropdown">
-        Yönetim
-      </a>
-      <div class="dropdown-menu" id="menu_yonetim_alt" runat="server">
-        <a class="dropdown-item" href="KullaniciYonetimi">Kullanıcı Yönetimi</a>
-        <a class="dropdown-item" href="GenelAyar">Genel Ayarlar</a>
-       <!-- <a class="dropdown-item" href="SQLislemleri">SQL İşlemleri</a>
-        <a class="dropdown-item" href="HataDosyasiOku">Hata Dosyası Oku</a>-->
-      </div>
-    </li>
-  </ul>
-            <div class="" style="right:100px; position: absolute;">
-                <asp:Label ID="lblgiris" runat="server" CssClass="label-isim" Text=""></asp:Label>
-                                <asp:LinkButton ID="lnkbutoncikis" runat="server" Visible="true" 
-                CssClass="border-radius: 12px  text-right btn btn-warning text-white" OnClick="lnkbutoncikis_Click" >Çıkış</asp:LinkButton>    
-            </div>
-</nav> 
-
-  </ContentTemplate>
+            
+ </ContentTemplate>
         </asp:UpdatePanel>
 
-        <div class="container-fluid">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-            </footer>
+         <div class="menu_background gizli" onclick=" menu_kapat()"  >
+
+       </div>
+
+       <div id="uyari_background_id" class="uyari_background gizli" onclick=" uyari_kapat()"  >
+
+       </div>
+       <div id="arama_background_id" class="arama_background gizli" onclick=" uyari_kapat()"  >
+
+       </div>
+
+
+      <div class="kapsul">
+
+          
+
+        <div  id="menu_alt"> 
+           
+	           <div id="logo" class="logoc"> 
+                    <a href="AnaSayfa.aspx">
+                        <asp:Image ID="imgturksat" ImageUrl="../../Images/turksat-logo-beyaz.png" Width="150px"    runat="server" />
+                    </a>
+	           </div>  
+
+           
+             
+            <div style="float:left; height:40px; right:550px;   width:max-content;">
+	        <table  style="width:max-content; height:100%; position:absolute" >
+            <tr>
+            
+            <td width="100%" align="left">
+                
+                
+                <input id="txtara2" onkeyup="txtara_keyup(event);" onkeydown="txtara_keydown();" class="textbox_ara"
+                    placeholder="TC, Ad Soyad, Sicil No ve ID ile Arama Yapabilirsiniz" style="width:400px;"  autocomplete="off" 
+                     onkeypress="return IsAlphaNumeric(event);" ondrop="return false;" onpaste="return false;" />
+                   
+                <div id="div_arama_main" class="div_arama_cl gizli">
+                        <div id="div_personelarama_ping"  class="center load_img" ></div>
+
+                    
+                </div>
+            </td>
+            <td width="250px" align="right">
+                
+                  <asp:Label ID="lblvekalet" Visible="false"  CssClass="uyari-button sari mt-5" runat="server" Text=""></asp:Label>
+                </td>
+
+
+
+            </tr>
+            
+            
+            </table>
+         </div>
+
+            <div style="float:left; position:absolute; height:40px; right:250px;  width:50px;">
+
+
+                 <div class="uyari_panel_dis"  >
+                    <asp:Label ID="lblmesajsayi" runat="server" CssClass="uyari_sayi" Text=""></asp:Label>
+                   <svg id="svgmesaj" style="width: 35px;margin-top: 5px;" aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" 
+                       onclick="div_mesaj_panel_ac();">
+                               <path fill="white" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
+                               </path>
+                           </svg>
+                     <div  id="mesaj_panel_div" class="uyari_panel_ic gizli "  onclick=" uyari_kapat()">
+                        <div id="div_mesaj_ping"  class="center load_img" ></div>
+                           
+
+                    </div>
+                 </div>
+
+
+            </div>
+            <div style="float:left; position:absolute; height:40px; right:200px;  width:50px;">
+                
+                        
+
+                <div class="uyari_panel_dis" >
+                    <asp:Label ID="lbluayrisayi" runat="server" CssClass="uyari_sayi" Text=""></asp:Label>
+                    <svg id="svgbell" aria-hidden="true" focusable="false" data-prefix="far" data-icon="bell" 
+                        class="svg-inline--fa fa-bell fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" onclick="div_bildirim_panel_ac();">
+                               <path fill="white" d="M439.39 362.29c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71zM67.53 368c21.22-27.97 44.42-74.33 44.53-159.42 0-.2-.06-.38-.06-.58 0-61.86 50.14-112 112-112s112 50.14 112 112c0 .2-.06.38-.06.58.11 85.1 23.31 131.46 44.53 159.42H67.53zM224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64z">
+                               </path>
+                           </svg>
+                     <div  id="uyari_panel_div" class="uyari_panel_ic gizli "  onclick=" uyari_kapat()">
+                        <div id="div_uyari_ping"  class="center load_img" ></div>
+                           
+
+                    </div>
+                 </div>
+            </div>
+            <div style="float:left; position:absolute;  right:0px; height:40px; width:200px; right:0px;" onclick="div_user_ac();">
+                  <div id="isim_giris"  class="grid-button h15" >
+                    <asp:Label ID="lblgiris" runat="server" Text=""></asp:Label>
+               
+                    
+                    <div id="user_altbilgi" class="user_altbilgi_cl gizli" >
+                        <div class="row">
+                            <div class="col-md-9" style="text-align:left;">
+                                    <asp:Label ID="lbluserbilgi" runat="server" Text=""></asp:Label>
+
+                            </div>
+                            <div class="col-md-3" style="text-align:right;">
+                                <asp:Button ID="btncikis" runat="server" Text="Çıkış"  CssClass="btn  btn-danger btn-sm"        onclick="lnkbutoncikis_Click"   />
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                                <asp:Panel ID="panel_kullanici" runat="server">
+                                         <div class="row">
+                                             <div class="col-md-8">
+                                                      <asp:DropDownList     ID="comkullanici" runat="server" CssClass="form-control form-control-sm"   Width="150px"   DataTextField="ISIM" DataValueField="ID">                                    </asp:DropDownList>
+                                             </div>
+                                             <div class="col-md-4">
+                                                    <asp:Button ID="btndegistir" runat="server" CssClass="btn  btn-success btn-sm " Text="Değiştir"  OnClick="btndegistir_Click"  /> 
+                                                      <asp:Button ID="btniptal" runat="server" Text="İptal Et"  CssClass="btn  btn-danger btn-sm"      OnClick="btniptal_Click"      />
+                                             </div>
+                                         </div>
+                                    </asp:Panel>
+                            </div>
+                    </div>
+                </div>
+                <div class="uyari_panel_dis" >
+                 <svg id="svgbell" aria-hidden="true" focusable="false" data-prefix="far" data-icon="bell" 
+                        class="svg-inline--fa fa-bell fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" >
+                               <path fill="white" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+                               </path>
+                           </svg>
+                    </div>
+                
+            </div>
+
+        
+          
+        
         </div>
+         
+          <div id="menu_root" class="menu_root" runat="server">
+                   
+
+  
+          </div>
+     
+
+ <div id="solAlan" class="menu-dar">
+           
+            <div id="sol_menu_yeni">
+
+                <asp:Repeater ID="repeater_sol_main" runat="server" OnItemDataBound="repeater_sol_main_ItemDataBound">
+                    <headertemplate>
+                             </HeaderTemplate>
+                              <itemtemplate>
+                                
+                                 
+
+                                       <div  id="div_menu_main_item" runat="server" class="main_menu_item" onclick="menu_tikla(this);" >
+                                           <div class="menu_svg" >
+                                               <svg  aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" class="svg-inline--fa fa-users fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d=" <%# Eval("SVG") %> "></path></svg>
+                                               </div>
+                                           <div class="menu_isim">
+                                          <%# Eval("MENU_ISMI") %>   
+                                               </div>
+                                        </div>
+                                      <div id="div_main_menu_box" runat="server"  class="div_main_menu_box_kapali">
+
+                                            <asp:Repeater ID="repeater_sol_sub" runat="server">
+                                                <headertemplate>
+                                                         </HeaderTemplate>
+                                                          <itemtemplate>
+                                
+                                                              <div  id="div_menu_sub_item"  class="yeni_sub_menu_item" >
+                                                                 <a class="yeni_menu_link" href='<%# Eval("LINK") %>'  onclick="ShowProgress2();"> <%# Eval("MENU_ISMI") %></a>
+                                                             </div>
+
+                                                          </itemtemplate>
+                                                          <footertemplate>
+                                                          </footertemplate>
+                                            </asp:Repeater>
+
+                                     </div>
+                                
+                                  <asp:HiddenField ID="main_menu_id" runat="server" Value='<%# Eval("ID") %>' />
+                              </itemtemplate>
+                              <footertemplate>
+                              </footertemplate>
+                </asp:Repeater>
+
+            </div>
+         
+     <div class="row"  style="position:absolute; bottom:40px; padding-bottom:10px; padding-left:10px;" >
+         <div class="col-md-12">
+                        <asp:Label ID="Label2" runat="server" Text="Ense Özcan" Font-Size="12px" Font-Bold="true" ForeColor="White" ></asp:Label><br />
+                        <asp:Label ID="Label3" runat="server" Text="Hasan SAVUN" Font-Size="12px" Font-Bold="true" ForeColor="White" ></asp:Label><br />
+                        <asp:Label ID="Label4" runat="server" Text=" 2021 ©" Font-Size="12px" Font-Bold="true" ForeColor="White" ></asp:Label><br />
+                        <asp:Label ID="Label5" runat="server" Text="hsavun@turksat.com.tr" Font-Size="12px" Font-Bold="true" ForeColor="White" ></asp:Label><br />
+                        <asp:Label ID="Label1" runat="server" Text="eozcan@turksat.com.tr" Font-Size="12px" Font-Bold="true" ForeColor="White" ></asp:Label><br />
+
+
+         </div>
+     </div>
+                
+        </div>
+
+     
+       
+              <div class=" icerikAlani" >
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                        <footer>
+                        </footer>
+              </div>
+
+            <div  id="alt_bar"> 
+                <div class="row">
+                    <div class="col-md-3 pk-5" style="text-align:left">
+                        <asp:Label ID="lblip" runat="server" Text="Label" Font-Size="12px" Font-Bold="true" ForeColor="#2f2d2d" ></asp:Label>
+
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 pr-5" style="text-align:right;">
+                <asp:Label ID="lblsayfaolusturulma" runat="server" Text="Label" Font-Size="12px" Font-Bold="true" ForeColor="#2f2d2d"></asp:Label>
+
+                    </div>
+                </div>
+                </div>
+      
+       </div>
+
+       
+
+
     </form>
 </body>
 </html>

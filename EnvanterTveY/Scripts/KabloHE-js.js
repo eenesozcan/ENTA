@@ -1,5 +1,16 @@
 ﻿
-function onlyDotsAndNumbers(event) {
+function onlyDotsAndNumbers(event) { //virgül ve sayılar
+    var charCode = (event.which) ? event.which : event.keyCode
+    if (charCode == 44) {
+        return true;
+    }
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+
+    return true;
+}
+
+function onlyNumberAndDot(event) { //nokta ve sayılar
     var charCode = (event.which) ? event.which : event.keyCode
     if (charCode == 46) {
         return true;

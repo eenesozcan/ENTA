@@ -1,0 +1,103 @@
+ 
+ ============================================================== 
+ 
+17.01.2021 19:31:01,[127.0.0.1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', interface adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.RaporPort.usport_doldur() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 140
+   konum: EnvanterTveY.RaporPort.comrapor_cmts_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 179
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+17.01.2021 19:32:26,[127.0.0.1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', interface adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.RaporPort.usport_doldur() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 140
+   konum: EnvanterTveY.RaporPort.comrapor_cmts_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 179
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+17.01.2021 19:34:29,[127.0.0.1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', interface adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.RaporPort.usport_doldur() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 140
+   konum: EnvanterTveY.RaporPort.comrapor_cmts_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 179
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+17.01.2021 19:34:31,[127.0.0.1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', interface adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.RaporPort.usport_doldur() F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 140
+   konum: EnvanterTveY.RaporPort.comrapor_cmts_SelectedIndexChanged(Object sender, EventArgs e) F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RaporPort.aspx.cs içinde: satır 179
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+17.01.2021 19:34:54,[127.0.0.1],[1 - Enes ÖZCAN] ,DataBinding: 'System.Data.DataRowView', STUFF(LTRIM(RTRIM(substring(interface,CHARINDEX('-',interface,0),8))),1,1,'') adında bir özellik içermiyor.,   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   konum: System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   konum: System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.PerformSelect()
+   konum: System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   konum: EnvanterTveY.RaporPort.usport_doldur()
+   konum: EnvanterTveY.RaporPort.comrapor_cmts_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort
+ 
+ ============================================================== 
+ 
+17.01.2021 23:44:05,[127.0.0.1],[1 - Enes ÖZCAN] ,Incorrect syntax near the keyword 'and'.,   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: EnvanterTveY.KodT.kodlar.GetData_port(String sql)
+   konum: EnvanterTveY.RaporPort.gun_doldur()
+   konum: EnvanterTveY.RaporPort.comrapor_ay_tarih_SelectedIndexChanged(Object sender, EventArgs e)
+   konum: System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   konum: System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   konum: System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   konum: System.Web.UI.Page.RaiseChangedEvents()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/RaporPort

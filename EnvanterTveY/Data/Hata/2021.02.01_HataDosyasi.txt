@@ -1,0 +1,12 @@
+ 
+ ============================================================== 
+ 
+1.02.2021 17:59:54,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatKabul.aspx(90): error CS1061: 'ruhsatkabul_aspx' does not contain a definition for 'btnara_Click' and no extension method 'btnara_Click' accepting a first argument of type 'ruhsatkabul_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatKabul
+ 
+ ============================================================== 
+ 
+1.02.2021 17:59:54,[127.0.0.1],,İçerik denetimleri, ana sayfaya başvuruda bulunan iç içe yerleştirilmiş bir ana sayfadaki veya bir içerik sayfasındaki en üst düzey denetimler olmalıdır.,   konum: System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   konum: System.Web.UI.Page.get_Master()
+   konum: System.Web.UI.Page.ApplyMasterPage()
+   konum: System.Web.UI.Page.PerformPreInit()
+   konum: System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint),/HataOlustu

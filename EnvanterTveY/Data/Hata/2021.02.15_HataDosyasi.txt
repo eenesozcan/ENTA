@@ -1,0 +1,4 @@
+ 
+ ============================================================== 
+ 
+15.02.2021 21:28:19,[127.0.0.1],-,F:\Dosya Türksat\Enes Web Çalışmaları\Sakarya\Envanter Takip\EnvanterTveY\EnvanterTveY\RuhsatTalep.aspx(389): error CS1061: 'ruhsattalep_aspx' does not contain a definition for 'chcaktif_pasif_CheckedChanged' and no extension method 'chcaktif_pasif_CheckedChanged' accepting a first argument of type 'ruhsattalep_aspx' could be found (are you missing a using directive or an assembly reference?),/RuhsatTalep

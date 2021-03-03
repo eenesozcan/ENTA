@@ -1,0 +1,460 @@
+﻿.sol_menu_main {
+    height: 50px;
+}
+
+    .sol_menu_main:hover {
+        background-color: #3e6b92;
+        color: #fff;
+        /* width:400px;*/
+    }
+
+
+.div_main_menu_box_acik {
+    background: #fff;
+    display: block;
+    /* left: 75px; */
+    position: relative;
+    /*margin-top: 15px;
+    margin-left: 90px;*/
+    width: 100%;
+    /* padding-right: -45px; */
+    padding-left: 90px;
+    padding-top: 15px;
+    background-color: #7e7b7b;
+    top:-6px;
+}
+
+.div_main_menu_box_kapali {
+    background: #fff;
+    display: none;
+    left: 30px;
+    position: relative;
+}
+
+
+
+.sub_menu_ac {
+    display: block;
+}
+
+
+
+.yeni_ana_menu_item {
+    height: 50px;
+    color: #fff;
+    font: bold 14px calibri;
+    position: relative;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    font-size: 16px;
+    color: #345b7e;
+    font-weight: bold;
+    line-height: 36px;
+    padding: 0px;
+    vertical-align: middle;
+    margin-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+    .yeni_ana_menu_item:hover {
+        color: #fff;
+    }
+
+.yeni_menu_item {
+    color: #345b7e;
+}
+
+.main_menu_item {
+    color: #fff;
+    font: bold 14px calibri;
+    position: relative;
+    width: 100%;
+    height: 55px;
+    text-align: left;
+    font-size: 16px;
+    /*color: #345b7e;*/
+    color: white;
+    font-weight: bold;
+    line-height: 45px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+    .main_menu_item:hover {
+        color: #fff;
+        background-color: #868383;
+    }
+
+.menu_svg {
+    width: 25px;
+    /*top: 5px;*/
+    margin-top: 10px;
+    /* fill: black; */
+    position: absolute;
+    /* filter: ; */
+    fill: gray;
+    height: 35px;
+}
+
+.menu_isim {
+    margin-left: 40px;
+    position: absolute;
+}
+
+.menu_aktif {
+    color: #fff;
+    background-color: #7e7b7b;
+    color: #fff !important;
+}
+
+.yeni_sub_menu_item {
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .yeni_sub_menu_item:hover {
+    }
+
+    .yeni_sub_menu_item a {
+        /*font: bold 11px calibri;*/
+        font-size: 14px;
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: left;
+        vertical-align: middle;
+        display: block;
+        color: white;
+        font-weight: bold;
+        display: flow-root list-item;
+
+        padding: 0px;
+        vertical-align: middle;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .yeni_sub_menu_item a:hover {
+            color: #b9b5b5;
+        }
+
+
+
+
+
+
+.menu-dar {
+    width: 150px !important;
+    box-shadow: 1px 0 20px rgba(0,0,0,.08);
+}
+
+.menu-genis {
+    width: 320px !important;
+    box-shadow: 5px 10px 15px 10px rgba(0,0,0,0.2);
+}
+
+
+.menu_background {
+    background-image: url('../../Images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center center;
+    border-color: #000000;
+    font-family: Arial;
+    font-size: 10pt;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255,255,255,0.9);
+    /*background-color: rgb(0,0,0,1 );*/
+    z-index: 999;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    overflow: hidden;
+    top: 40px;
+    left: 0px !important;
+}
+
+.arama_background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.85);
+    /*background-color: rgb(0,0,0,1 );*/
+    z-index: 999;
+    color: #FFFFFF;
+    overflow: hidden;
+    top: 40px;
+    left: 0px !important;
+}
+
+.uyari_background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255,255,255,0);
+    /*background-color: rgb(0,0,0,1 );*/
+    z-index: 999;
+    color: #FFFFFF;
+    overflow: hidden;
+    top: 40px;
+    left: 0px !important;
+}
+
+.user_bilgi {
+    /*height: 170px;*/
+    /*
+    background-color: #fff;
+    color: #000;
+    box-shadow: 7px 7px 30px 5px rgba(0,0,0,0.1);
+        */
+}
+
+.user_altbilgi_cl {
+    font-size: 14px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 10px; */
+    width: 300px;
+    /* height: 100%; */
+    text-align: left;
+    background-color: #fff;
+    position: absolute;
+    /* margin-top: 10px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 7px 7px 30px 5px rgba(0,0,0,0.1);
+    margin-right: 50px;
+    margin-left: -20px;
+    color: black;
+    top: 35px;
+    left: -130px
+}
+
+
+
+.uyari_panel_ic {
+    font-size: 12px;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+    text-align: left;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: white;
+    /*top: 40px;*/
+    position: relative;
+    box-shadow: 7px 7px 30px 5px rgba(0,0,0,0.1);
+    left: -70px;
+    width: 350px;
+}
+
+
+.uyari_panel_dis {
+    width: 50px;
+    position: absolute;
+    height: 40px;
+    cursor: pointer;
+    float: left;
+    right: 0px;
+}
+
+
+    .uyari_panel_dis #svgbell {
+        height: 30px;
+        margin: 6px auto;
+    }
+
+        .uyari_panel_dis #svgbell:hover {
+            scale: 1.2;
+            fill: red;
+        }
+
+    .uyari_panel_dis #svgmesaj {
+        height: 30px;
+        margin: 6px auto;
+    }
+
+        .uyari_panel_dis #svgmesaj:hover {
+            scale: 1.2;
+            fill: red;
+        }
+
+
+
+
+.uyari_sayi {
+    position: absolute;
+    right: 5px;
+    color: white;
+    background-color: #df2828;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+.mesaj_gelen {
+    background-color: #a3bee8;
+    left: 0px;
+    float: left;
+}
+
+.mesaj_giden {
+    background-color: #a7e187;
+    right: 0px;
+    float: right;
+}
+
+.mesaj_box {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    /* left: 0px; */
+    position: relative;
+}
+
+.mesaj_icerik {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.mesaj_tarih {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+            color: #f1f1f1;
+        }
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+
+.div_arama_cl {
+    font-size: 12px;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+    text-align: left;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: white;
+    /*top: 40px;*/
+    position: absolute;
+    box-shadow: 7px 7px 30px 5px rgba(0,0,0,0.1);
+    width: 550px;
+    z-index: 20001;
+}
+
+.div_kisayol {
+    width: 150px;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+    color: #2F73AD;
+}
+
+    .div_kisayol:hover {
+        color: #13314B !important;
+    }
+
+
+
+.gizli {
+    display: none;
+}
+
+.textbox_ara {
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    background-color: #aeaeae;
+    color: white;
+    max-width: 500px;
+    padding: 5px 10px 5px 10px;
+    font-size:12px;
+    font-family:Calibri;
+}
